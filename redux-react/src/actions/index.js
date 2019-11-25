@@ -1,0 +1,5 @@
+export const RATESDATA_LOAD_START = 'RATESDATA_LOAD_START';
+export const RATESDATA_LOAD_SUCCESS = 'RATESDATA_LOAD_SUCCESS';
+export const RATESDATA_LOAD_FAILURE = 'RATESDATA_LOAD_FAILURE';
+
+export const getRateData = () => {};

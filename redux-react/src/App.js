@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Rates from './Components/Rates';
+
+//https://api.ratesapi.io/api/latest?base=USD
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Currency exchange base USD</p>
+        <button onClick={() => {}}>get rates base USD</button>
+        <Rates />
       </header>
     </div>
   );
